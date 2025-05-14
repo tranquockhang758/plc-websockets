@@ -1,0 +1,6 @@
+netstat -ano | findstr :6379 => Tìm ra processId đang sử dụng port 6379 
+
+TCP    127.0.0.1:6379         0.0.0.0:0              LISTENING       6480
+
+Thực hiện câu lênh taskkill /PID 6380 /F => Tiến hành kill processId đó
+ 
